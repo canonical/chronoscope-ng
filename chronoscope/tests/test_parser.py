@@ -37,7 +37,7 @@ def test_parser_event_relation_send():
     assert records["event"] == [{
         "id": 0x1000000000000006,
         "state_machine_id": 0x1000000000000001,
-        "time": 1783359862175353000,
+        "time": 1783367062175353000,
         "name": None,
     }]
 

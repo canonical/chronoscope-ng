@@ -7,6 +7,7 @@
 # SPDX-License-Identifier: LGPL-3.0-only
 #
 
+import calendar
 from datetime import datetime as t
 import sys
 
@@ -52,8 +53,10 @@ def format_event_id(event_id: int) -> str:
 def ns(time: str) -> int:
     if len(time) != NS_TIME_LEN:
         raise ValueError("Not a nanosecond time format")
-    ms = int(t.strptime(time[:-3], FMT_MS).timestamp() * 1e6)
-    return ms * 1_000 + int(time[-3:])
+    parsed = t.strptime(time[:-3], FMT_MS)
+    seconds = calendar.timegm(parsed.utctimetuple())
+    return (seconds * 1_000_000_000 + parsed.microsecond * 1_000
+            + int(time[-3:]))
 
 def str_ns(unix_time_ns: int, compact=False) -> str:
     dt = t.utcfromtimestamp(unix_time_ns / 1e9)
