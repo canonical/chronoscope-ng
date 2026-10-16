@@ -18,7 +18,7 @@ jobs:
       with:
         python-version: '3.x'
     - name: Install build frontend
-      run: python -m pip install --upgrade build
+      run: python -m pip install --upgrade build setuptools
     - name: Verify release tag
       run: test "${GITHUB_REF_NAME#v}" = "$(python setup.py --version)"
     - name: Build distributions
