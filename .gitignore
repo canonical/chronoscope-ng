@@ -1,6 +1,10 @@
 *.db
+.venv/
+*.egg-info/
+build/
 chronoscope/__pycache__
 dist/
+test/.env/
 tree_*.png
 chronoscope/tests/__pycache__
 *.svg

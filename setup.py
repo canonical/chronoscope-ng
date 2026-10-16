@@ -38,7 +38,7 @@ setup(
     long_description="A cross-platform matplotlib-based observability tool",
     author='Anatoliy Bilenko',
     author_email='anatoliy.bilenko@gmail.com',
-    url='https://github.com/just-now/chronoscope',
+    url='https://github.com/canonical/chronoscope-ng',
     license='LGPLv3',
     keywords="cli observability",
     python_requires=">=3.10",

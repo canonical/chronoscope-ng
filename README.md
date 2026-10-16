@@ -1,12 +1,12 @@
-![pytest/systest workflow](https://github.com/just-now/chronoscope/actions/workflows/python-package.yml/badge.svg)
-![systest workflow](https://github.com/just-now/chronoscope/actions/workflows/makefile.yml/badge.svg)
-[![Open Raft demo in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/just-now/chronoscope/blob/feat/chronoscope-event-relation/examples/raft_demo.ipynb)
+![pytest/systest workflow](https://github.com/canonical/chronoscope-ng/actions/workflows/python-package.yml/badge.svg)
+![systest workflow](https://github.com/canonical/chronoscope-ng/actions/workflows/makefile.yml/badge.svg)
+[![Open Raft demo in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/canonical/chronoscope-ng/blob/main/examples/raft_demo.ipynb)
 
 # chronoscope
 Chronoscope, a cross-platform matplotlib-based observability tool
 
 ## Chart
-![alt text](https://github.com/just-now/chronoscope/blob/master/img/chart1.png)
+![alt text](https://github.com/canonical/chronoscope-ng/blob/main/img/chart1.png)
 
 Large charts can be opened in overlapping event windows:
 
@@ -18,13 +18,13 @@ Use `[` and `]` for the previous and next window, and `<` and `>` for the
 first and last window. Press `a` to hide or show event-relation arrows.
 
 ## Histogram
-![alt text](https://github.com/just-now/chronoscope/blob/master/img/hist.svg)
+![alt text](https://github.com/canonical/chronoscope-ng/blob/main/img/hist.svg)
 
 ## Queue
-![alt text](https://github.com/just-now/chronoscope/blob/master/img/queue.svg)
+![alt text](https://github.com/canonical/chronoscope-ng/blob/main/img/queue.svg)
 
 ## GTKWave
-![alt text](https://github.com/just-now/chronoscope/blob/master/img/gtkw.png)
+![alt text](https://github.com/canonical/chronoscope-ng/blob/main/img/gtkw.png)
 
 ## Definitions
 
